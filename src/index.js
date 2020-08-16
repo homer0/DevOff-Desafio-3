@@ -3,6 +3,8 @@ let ctx;
 let pointWidthSlider;
 let pointWidthLabel;
 let pointWidth;
+let pointColorInput;
+let pointColor;
 const $ = (selector, all = false) => (
   all ?
     document.querySelectorAll(selector) :
@@ -27,7 +29,6 @@ const draw = ({ x, y }) => {
 
 const beginToDraw = ({ x, y }) => {
   ctx.lineWidth = pointWidth;
-  ctx.strokeStyle = 'green';
   ctx.lineJoin = 'round';
   ctx.lineCap = 'round';
   ctx.beginPath();
@@ -64,13 +65,25 @@ const setupPointWidthEvents = () => {
   refreshPointWidth();
 };
 
+const refreshPointColor = () => {
+  pointColor = pointColorInput.value;
+  ctx.strokeStyle = pointColor;
+};
+
+const setupPointColorEvents = () => {
+  pointColorInput.addEventListener('change', refreshPointColor);
+  refreshPointColor();
+};
+
 const initApp = () => {
   canvas = $('#canvas');
   ctx = canvas.getContext('2d');
   pointWidthSlider = $('#pointWidth');
   pointWidthLabel = $('#pointWidthLabel');
+  pointColorInput = $('#pointColor');
   setupPointWidthEvents();
   setupPaintEvents();
+  setupPointColorEvents();
 };
 
 document.addEventListener('readystatechange', () => {
