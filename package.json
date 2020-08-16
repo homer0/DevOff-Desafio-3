@@ -1,0 +1,17 @@
+{
+  "name": "devoff-desafio-3",
+  "version": "1.0.0",
+  "description": "Paint",
+  "repository": "homer0/DevOff-Desafio-3",
+  "engines": {
+    "node": ">= 12"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-homer0": "^5.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
