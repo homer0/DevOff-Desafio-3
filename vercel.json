@@ -4,6 +4,10 @@
   "alias": ["devoffarg-03.homer0.dev"],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "src/index.html"
+    },
+    {
       "source": "/:match*",
       "destination": "src/:match*"
     }
