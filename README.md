@@ -1,4 +1,9 @@
-![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png)
+[![Reproductor](./player.png)](https://youtu.be/fmV-66De8wI)
+
+📺 Video: [https://youtu.be/fmV-66De8wI](https://youtu.be/fmV-66De8wI)
+
+🤘 Deploy: [https://devoffarg-03.homer0.dev](https://devoffarg-03.homer0.dev)
+
 # Desafío 3 - 09/08/2020
 
 Para este desafío, haremos uso de la API de Canvas en JavaScript y ¡crearemos una herramienta para dibujar en la Web!
@@ -60,7 +65,7 @@ Cuando finalices la resolución del desafío, envianos un archivo ZIP con todo t
 
 ## ⚖ Código de conducta
 
-Participar de DevOff implica la aceptación de nuestro [Código de Conducta](https://github.com/devoffarg/codigo-de-conducta). 
+Participar de DevOff implica la aceptación de nuestro [Código de Conducta](https://github.com/devoffarg/codigo-de-conducta).
 
 Ante cualquier consulta, podrás recurrir a nuestro [equipo de moderación](https://github.com/devoffarg/codigo-de-conducta#protocolo-de-moderaci%C3%B3n).
 
@@ -73,7 +78,7 @@ Ante cualquier consulta, podrás recurrir a nuestro [equipo de moderación](http
 
 ### Organizaciones aliadas
 
-¡Gracias a [Migue Moyano](https://twitter.com/elmiguedev), [Joel A. Villarreal Bertoldi](https://twitter.com/joelalejandro) y [Agustín Carrasco](https://twitter.com/asermax) del equipo de [CoDeAr](https://twitter.com/somoscodear) por dar una mano para que este proyecto sea posible! 
+¡Gracias a [Migue Moyano](https://twitter.com/elmiguedev), [Joel A. Villarreal Bertoldi](https://twitter.com/joelalejandro) y [Agustín Carrasco](https://twitter.com/asermax) del equipo de [CoDeAr](https://twitter.com/somoscodear) por dar una mano para que este proyecto sea posible!
 
 ### Créditos
 
